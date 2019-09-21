@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Constructora</title>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximun-scale=1.0, minimun-scale=1.0">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/brands.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/fontawesome.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/regular.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/solid.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/svg-with-js.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/v4-shims.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	
+</head>
+<body>
+
+	<div class="padre">
+		<header class="header">
+			<div class="menu">
+				<div class="logo">
+					<a href="index.html"><span><i class="fas fa-home"></i>Contac</span></a>
+				</div>
+			<!--<nav class="nav">
+					<a href="#">Inicio</a>
+					<a href="#">Nosotros</a>
+					<a href="#">Servicios</a>
+					<a href="#">Portafolio</a>
+					<a href="#">Contacto</a>
+				</nav>-->
+				<nav class="nav">
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="#">Nosotros</a></li>
+						<li><a href="#">Servicios</a></li>
+						<li><a href="#">Portafolio</a></li>
+						<li><a href="Contactos">Contacto</a></li>
+				 	</ul>
+				</nav>
+			</div>
+			<div class="texto-principal">
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation.</h3>
+			</div>
+		</header>
+
+		<br>
+
+		<section class="section">
+			<div class="articulo">
+				<div class="circulo circulo1">
+					<div class="contenido">
+						<h2>Imagen 1</h2>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae alias 
+						corporis doloribus ab distinctio corrupti officiis maxime, assumenda 
+						tenetur error quas ipsa voluptates nemo iste, quia dolore veniam. Assumenda, 
+						consectetur!</p>
+					</div>
+				</div>
+				<div class="circulo circulo2">
+					<div  class="contenido">
+						<h2>Imagen 2</h2>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae alias 
+						corporis doloribus ab distinctio corrupti officiis maxime, assumenda 
+						tenetur error quas ipsa voluptates nemo iste, quia dolore veniam. Assumenda, 
+						consectetur!</p>
+					</div>
+				</div>
+				<div class="circulo circulo3">
+					<div  class="contenido">
+						<h2>Imagen 3</h2>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae alias
+						corporis doloribus ab distinctio corrupti officiis maxime, assumenda 
+						tenetur error quas ipsa voluptates nemo iste, quia dolore veniam. Assumenda, 
+						consectetur!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="con">
+			<h2><span class="fa fa-envelope"></span> Contacos</h2>
+		</div>
+
+		<section class="form-warp">
+				<section class="contact-info">
+					<section class="info-title">
+						<span class="fa fa-user-circle"></span>
+						<h2>INFORMACION <br> DE CONTACTO</h2>
+					</section>
+					<section class="info-items">
+						<p><span class="fa fa-envelope"></span>rojas.ph@gmail.com</p>
+						<p><span class="fa fa-mobile"></span>+(951)-7778965</p>
+					</section>
+				</section>
+			<form action="enviar.php" method="post" class="form-contact">
+				<h2>Envianos tu Consulta</h2>
+					<div class="user-info">
+						<label for="names">Nombres *</label>
+						<input type="text" id="names" name="nombre" required>
+		
+						<label for="phone">Telefono Celular *</label>
+						<input type="text" id="phone" name="telefono" >
+		
+						<label for="email">Correo Electronico</label>
+						<input type="text" id="email" name="correo" required>
+		
+						<label for="mensaje">Consulta *</label>
+						<textarea id="mensaje" name="mensaje" required></textarea>
+		
+						<input type="submit" value="Enviar Mensaje" id="btn-send">
+				</div>
+			</form>
+		</section>
+		
+		
+		
+		
+			<script src="js/Jquery/jquery-3.1.1.min.js"></script>
+			<script src="js/formulario.js"></script>
+
+		<footer class="footer">
+			<div class="pie"></div>
+		</footer>
+	</div>
+
+</body>
+</html>

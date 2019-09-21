@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/brands.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/fontawesome.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/regular.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/solid.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/svg-with-js.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/v4-shims.min.css">
+    <title>Formulario de Contactos</title>
+</head>
+<body>
+    <!--<div class="model-warp">
+        <div class="mensaje-modal">
+            <h3>Errores encontrados</h3>
+            <p>Escriba Nombre</p>
+            <p>Ingrese un correo</p>
+            <p>Escriba un mensaje</p>
+            <span id="btn-close">Cerrar</span>
+        </div>
+    </div>-->
+
+    <section class="form-warp">
+        <section class="contact-info">
+            <section class="info-title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION <br> DE CONTACTO</h2>
+            </section>
+            <section class="info-items">
+                <p><span class="fa fa-envelope"></span>rojas.ph@gmail.com</p>
+                <p><span class="fa fa-mobile"></span>+(951)-7778965</p>
+            </section>
+        </section>
+        <form action="enviar.php" method="post" class="form-contact">
+            <h2>Envianos tu Consulta</h2>
+            <div class="user-info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="phone">Telefono Celular *</label>
+                <input type="text" id="phone" name="telefono" >
+
+                <label for="email">Correo Electronico</label>
+                <input type="text" id="email" name="correo" required>
+
+                <label for="mensaje">Consulta *</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btn-send">
+            </div>
+        </form>
+    </section>
+
+
+
+
+    <script src="js/Jquery/jquery-3.1.1.min.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>
