@@ -136,6 +136,7 @@ ul li a:hover:before{
 }
 /*-------------------------------------------*/
 .texto-principal{
+	position: -ms-page;
  
 }
 h3{
